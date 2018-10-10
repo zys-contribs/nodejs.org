@@ -78,7 +78,7 @@ sudo apt-get install -y build-essential
 
 **Available architectures:**
 
-* **i386** (32-bit)—**not available for Node.js 10 and later**
+* **i386** (32-bit) - **not available for Node.js 10 and later**
 * **amd64** (64-bit)
 * **armhf** (ARM 32-bit hard-float, ARMv7 and up: _arm-linux-gnueabihf_)
 * **arm64** (ARM 64-bit, ARMv8 and up: _aarch64-linux-gnu_)
