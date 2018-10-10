@@ -78,21 +78,24 @@ sudo apt-get install -y build-essential
 
 **Available architectures:**
 
-* **i386** (32-bit)
+* **i386** (32-bit)—**not available for Node.js 10 and later**
 * **amd64** (64-bit)
 * **armhf** (ARM 32-bit hard-float, ARMv7 and up: _arm-linux-gnueabihf_)
+* **arm64** (ARM 64-bit, ARMv8 and up: _aarch64-linux-gnu_)
 
 **Supported Ubuntu versions:**
 
-* **Ubuntu 14.04 LTS** (Trusty Tahr)
+* **Ubuntu 14.04 LTS** (Trusty Tahr) - **not available for Node.js 10 and later**
 * **Ubuntu 16.04 LTS** (Xenial Xerus)
+* **Ubuntu 17.10** (Artful Aardvark)
+* **Ubuntu 18.04 LTS** (Bionic Beaver)
 
 **Supported Debian versions:**
 
-* **Debian 8** (jessie, old-stable)
-* **Debian 9 / stable** (stretch)
-* **Debian testing** (buster to-be-released-as-next-stable)
-* **Debian unstable** (sid never-to-be-released, aka rolling)
+* **Debian 8 / oldstable** (Jessie)
+* **Debian 9 / stable** (Stretch)
+* **Debian 10 / testing** (Buster)
+* **Debian unstable** (Sid)
 
 A Node.js package is also available in the [official repo](http://packages.debian.org/search?searchon=names&keywords=nodejs) for Debian Sid (unstable), Jessie (testing) and Wheezy (wheezy-backports) as "nodejs". It only installs a `nodejs` binary.
 
@@ -101,21 +104,31 @@ The Node.js modules available in the distribution official repositories do not n
 
 **Supported Linux Mint versions:**
 
-* **Linux Mint 17 "Qiana"** (via Ubuntu 14.04 LTS)
-* **Linux Mint 17.1 "Rebecca"** (via Ubuntu 14.04 LTS)
-* **Linux Mint 17.2 "Rafaela"** (via Ubuntu 14.04 LTS)
+* **Linux Mint 17 "Qiana"** (via Ubuntu 14.04 LTS) - **not available for Node.js 10 and later**
+* **Linux Mint 17.1 "Rebecca"** (via Ubuntu 14.04 LTS) - **not available for Node.js 10 and later**
+* **Linux Mint 17.2 "Rafaela"** (via Ubuntu 14.04 LTS) - **not available for Node.js 10 and later**
+* **Linux Mint 18 "Sarah"** (via Ubuntu 16.04 LTS)
+* **Linux Mint 18.1 "Serena"** (via Ubuntu 16.04 LTS)
+* **Linux Mint 18.2 "Sonya"** (via Ubuntu 16.04 LTS)
+* **Linux Mint 18.3 "Sylvia"** (via Ubuntu 16.04 LTS)
 * **Linux Mint Debian Edition (LMDE) 2 "Betsy"** (via Debian 8)
+
+**Supported Devuan versions:**
+
+* **Jessie** (via Debian 8)
+* **Ascii** (via Debian 9)
+* **Ceres** (via Debian unstable)
 
 **Supported elementary OS versions:**
 
-* **elementary OS Luna** (via Ubuntu 12.04 LTS)
-* **elementary OS Freya** (via Ubuntu 14.04 LTS)
+* **elementary OS Freya** (via Ubuntu 14.04 LTS) - **not available for Node.js 10 and later**
 * **elementary OS Loki** (via Ubuntu 16.04 LTS)
 * **elementary OS Juno** (via Ubuntu 18.04 LTS)
 
 **Supported Trisquel versions:**
 
-* **Trisquel 7 "Belenos"** (via Ubuntu 14.04 LTS)
+* **Trisquel 7 "Belenos"** (via Ubuntu 14.04 LTS) - **not available for Node.js 10 and later**
+* **Trisquel 8 "Flidas"** (via Ubuntu 16.04 LTS)
 
 **Supported BOSS versions:**
 
