@@ -7,6 +7,14 @@
     <li><a href="https://nodejs.org/download/nightly/">{{site.nightly}}</a></li>
     <li><a href="https://nodejs.org/download/chakracore-nightly/">{{site.chakracore-nightly}}</a></li>
     <li><a href="https://github.com/nodejs/node/blob/master/BUILDING.md#building-nodejs-on-supported-platforms">{{downloads.buildInstructions}}</a></li>
-    <li><a href="https://github.com/nodejs/help/wiki/Installation">{{site.download.install-on-linux.text}}</a></li>
+    <li>
+      <a href="https://github.com/nodejs/help/wiki/Installation">
+        {{#if site.download.install-on-linux.text}}
+          {{site.download.install-on-linux.text}}
+        {{else}}
+          Installing Node.js via binary archive on Linux
+        {{/if}}
+      </a>
+    </li>
   </ul>
 </section>
